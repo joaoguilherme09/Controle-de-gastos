@@ -5,6 +5,8 @@ import java.util.Scanner;
 public class Main {
     private static final ExpenseManager manager = new ExpenseManager("expenses.csv");
     private static final Scanner scanner = new Scanner(System.in);
+    
+
 
     public static void main(String[] args) {
         boolean running = true;
