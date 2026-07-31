@@ -11,6 +11,7 @@ public class Main {
 
         System.out.println("=== Controle de Gastos Pessoais ===");
 
+
         while (running) {
             printMenu();
             String option = scanner.nextLine().trim();

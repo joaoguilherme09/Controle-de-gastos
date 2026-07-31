@@ -49,6 +49,7 @@ public class ExpenseManager {
             System.out.println("Erro ao salvar arquivo: " + e.getMessage());
         }
     }
+    
 
     private void loadFromFile() {
         Path path = Paths.get(filePath);
